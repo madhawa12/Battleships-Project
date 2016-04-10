@@ -1,0 +1,37 @@
+﻿<Properties StartupItem="MyGame.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug-Mac|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="EndingGameController.cs">
+    <Files>
+      <File FileName="GameLogic.cs" Line="6" Column="19" />
+      <File FileName="ResultOfAttack.cs" Line="4" Column="34" />
+      <File FileName="SeaGrid.cs" Line="30" Column="29" />
+      <File FileName="SeaGridAdapter.cs" Line="63" Column="29" />
+      <File FileName="Ship.cs" Line="4" Column="34" />
+      <File FileName="Tile.cs" Line="4" Column="34" />
+      <File FileName="DeploymentController.cs" Line="7" Column="13" />
+      <File FileName="DiscoveryController.cs" Line="4" Column="34" />
+      <File FileName="EndingGameController.cs" Line="4" Column="34" />
+      <File FileName="GameController.cs" Line="56" Column="9" />
+      <File FileName="GameResources.cs" Line="292" Column="4" />
+      <File FileName="Player.cs" Line="4" Column="34" />
+      <File FileName="AttackResult.cs" Line="4" Column="34" />
+      <File FileName="BattleShipsGame.cs" Line="4" Column="34" />
+      <File FileName="Direction.cs" Line="4" Column="34" />
+      <File FileName="ISeaGrid.cs" Line="4" Column="34" />
+      <File FileName="AIPlayer.cs" Line="4" Column="34" />
+      <File FileName="AIOption.cs" Line="4" Column="34" />
+      <File FileName="AIMediumPlayer.cs" Line="4" Column="34" />
+      <File FileName="GameState.cs" Line="4" Column="34" />
+      <File FileName="HighScoreController.cs" Line="4" Column="34" />
+      <File FileName="MenuController.cs" Line="4" Column="34" />
+      <File FileName="UtilityFunctions.cs" Line="6" Column="19" />
+      <File FileName="AIHardPlayer.cs" Line="4" Column="34" />
+      <File FileName="ShipName.cs" Line="4" Column="34" />
+      <File FileName="TileView.cs" Line="4" Column="34" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
