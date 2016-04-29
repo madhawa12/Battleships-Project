@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="BattleShips.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug-Mac|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/Model/BattleShipsGame.cs">
+    <Files>
+      <File FileName="src/Model/AttackResult.cs" Line="1" Column="1" />
+      <File FileName="src/Model/AIHardPlayer.cs" Line="1" Column="1" />
+      <File FileName="src/Model/BattleShipsGame.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
