@@ -235,8 +235,28 @@ static class UtilityFunctions
 			case GameState.ViewingGameMenu:
 			case GameState.AlteringSettings:
 			case GameState.ViewingHighScores:
+			
 				SwinGame.DrawBitmap(GameResources.GameImage("Menu"), 0, 0);
 				break;
+		case GameState.ViewHowToPlay:
+			SwinGame.DrawBitmap (GameResources.GameImage ("Menu"), 0, 0);
+			//the instructions
+			SwinGame.DrawText ("Instructions On How To Play", Color.White, GameResources.GameFont ("Courier"), 225, 400);
+			SwinGame.DrawText ("1. Click On Play Button On the Main Menu", Color.White, GameResources.GameFont ("Courier"), 0, 425);
+			SwinGame.DrawText ("2. You Can Select Dificulty Level ", Color.White, GameResources.GameFont ("Courier"), 0, 443);
+			SwinGame.DrawText ("3. Select Your Ship and Arrange them", Color.White, GameResources.GameFont ("Courier"), 0, 461);
+			SwinGame.DrawText ("4. You can get a random arrangement click on the random button", Color.White, GameResources.GameFont ("Courier"), 0, 479);
+			SwinGame.DrawText ("5. Select the orientation of the ship using the arrowa above", Color.White, GameResources.GameFont ("Courier"), 0, 497);
+			SwinGame.DrawText ("6. To go back to menu from game page, click on main menu", Color.White, GameResources.GameFont ("Courier"), 0, 515);
+			SwinGame.DrawText ("7. To go back to the main menu from here press ESC ", Color.White, GameResources.GameFont ("Courier"), 0, 533);
+
+			SSif (SwinGame.KeyTyped (KeyCode.vk_ESCAPE))
+			{
+				GameController.EndCurrentState ();
+			}
+			break;
+	
+
 			case GameState.Discovering:
 			case GameState.EndingGame:
 				SwinGame.DrawBitmap(GameResources.GameImage("Discovery"), 0, 0);

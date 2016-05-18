@@ -28,6 +28,7 @@ public enum GameState
 	/// </summary>
 	ViewingHighScores,
 
+	ViewHowToPlay,
 	/// <summary>
 	/// The player is altering the game settings
 	/// </summary>

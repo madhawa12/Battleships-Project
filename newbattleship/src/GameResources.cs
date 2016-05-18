@@ -11,7 +11,7 @@ public static class GameResources
 	private static void LoadFonts()
 	{
 		NewFont("ArialLarge", "arial.ttf", 80);
-		NewFont("Courier", "cour.ttf", 14);
+		NewFont("Courier", "cour.ttf", 20);
 		NewFont("CourierSmall", "cour.ttf", 8);
 		NewFont("Menu", "l_10646.ttf", 12);
 	}
@@ -22,6 +22,7 @@ public static class GameResources
 		NewImage("Menu", "main_page.jpg");
 		NewImage("Discovery", "discover.jpg");
 		NewImage("Deploy", "deploy.jpg");
+
 
 
 		//Deployment
