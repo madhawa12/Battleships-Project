@@ -250,7 +250,7 @@ static class UtilityFunctions
 			SwinGame.DrawText ("6. To go back to menu from game page, click on main menu", Color.White, GameResources.GameFont ("Courier"), 0, 515);
 			SwinGame.DrawText ("7. To go back to the main menu from here press ESC ", Color.White, GameResources.GameFont ("Courier"), 0, 533);
 
-			SSif (SwinGame.KeyTyped (KeyCode.vk_ESCAPE))
+			if (SwinGame.KeyTyped (KeyCode.vk_ESCAPE))
 			{
 				GameController.EndCurrentState ();
 			}
